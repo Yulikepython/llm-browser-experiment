@@ -2,3 +2,16 @@ venv
 .env
 .idea
 .idea/*
+*.txt
+
+# 出力ファイルも公開しない
+outputs/*
+# 自作プロンプトは公開しない
+my_prompts/*
+
+# サンプルプロジェクトにより出力されたファイルは公開
+!outputs/20250202-175004-output.md
+!outputs/20250202-175350-output.md
+!outputs/20250202-175642-output.md
+
+__pycache__/
