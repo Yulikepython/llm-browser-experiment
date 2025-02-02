@@ -60,6 +60,7 @@ source venv/bin/activate  # Windowsの場合: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+requirements.txtを使わない場合は、以下のパッケージをインストールしてください。
 ```bash
 pip install langchain_openai browser_use
 ```
