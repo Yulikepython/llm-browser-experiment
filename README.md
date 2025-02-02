@@ -56,13 +56,9 @@ source venv/bin/activate  # Windowsの場合: venv\Scripts\activate
 
 ### 3. 必要パッケージのインストール
 
-`requirements.txt` がある場合は以下のコマンドで一括インストール、ない場合は個別にインストールしてください。
-
 ```bash
 pip install -r requirements.txt
 ```
-
-もし `requirements.txt` が存在しない場合は、利用しているライブラリ（`langchain_openai`, `browser_use`など）を適宜インストールしてください。
 
 ```bash
 pip install langchain_openai browser_use

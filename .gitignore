@@ -8,10 +8,12 @@ venv
 outputs/*
 # 自作プロンプトは公開しない
 my_prompts/*
+__pycache__/
 
 # サンプルプロジェクトにより出力されたファイルは公開
 !outputs/20250202-175004-output.md
 !outputs/20250202-175350-output.md
 !outputs/20250202-175642-output.md
 
-__pycache__/
+#requirements.txt
+!requirements.txt
